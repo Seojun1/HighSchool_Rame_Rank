@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+h1 {
+  text-align: center;  
+  margin-top: 20px;
+  border-bottom: 6px solid red;
+  margin-left: 39%;
+  display: inline-block;
+  font-family:  'Do Hyeon', sans-serif;
+  font-size: 45px;
+}
+
+body {
+   overflow: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: 25px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.graph {
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+}
+.graph li {
+    padding: 0 50px;
+    text-align: center;
+}
+aside {
+    position: relative;
+    width: 50px;
+    background-color: #c4c4c4;
+    border-radius: 4px 4px 0 0;
+}
+
+#graph1 {
+    height: 330px;
+    margin-top: 150px;
+}
+
+#graph2 {
+    height: 380px;
+}
+
+#graph3 {
+    height: 280px;
+    margin-top: 200px;
+}
+
+.graph li div i {
+    display: none;
+}
+.graph li p {
+    font-size: 20px;
+    color: #222;
+}
+
+span {
+    font-size: 20px;
+    margin: 0px 8px 0 0;
+}
+
+i {
+    display: block;
+    margin: 100px 7px 0 0;
+}
+#about{
+    float: right;
+    position: relative;
+    top: -500px;
+    margin-right: 50px;
+    display: block;
+}
+#change_one,#change_two,#change_thr{
+    float: right;
+    width: 300px;
+    height: 300px;
+    display: none;
+    position: relative;
+    top: -400px;
+    left: 350px;
+}
+
+#made {
+    text-align: center;
+    position: fixed;
+    margin: 120px 80px 0px 570px;
+}
+
+#circle {
+    width: 100px;
+    margin-left: 30px;
+}
+
+#circle1 {
+    background-color: #50BCDF;
+    width: 35px;
+    height: 35px;
+    border-radius: 75px;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+#circle2 {
+    background-color: #C3FA6E;
+    width: 35px;
+    height: 35px;
+    border-radius: 75px;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+#circle3 {
+    background-color: #ffd400;
+    width: 35px;
+    height: 35px;
+    border-radius: 75px;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+#circle4{
+    background-color: #8977AD;
+    width: 35px;
+    height: 35px;
+    border-radius: 75px;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+#circle5 {
+    background-color: #CE9E60;
+    width: 35px;
+    height: 35px;
+    border-radius: 75px;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+#BT1, #BT2, #BT3 {
+    border-radius: 15px;
+    padding: 10px;    
+    margin: 5px;
+    border-color: purple;
+}

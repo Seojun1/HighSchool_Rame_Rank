@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>막대그래프</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>게임순위표(1타임)</h1>
+        </header>
+
+        <div id="circle">
+            <div id="circle1" ></div>
+            <label for="circle1">소프트웨어과</label>
+            <div id="circle2"></div>
+            <label for="circle2">정보통신과</label>
+            <div id="circle3"></div>
+            <label for="circle3">디자인과</label>
+            <div id="circle4"></div>
+            <label for="circle4">만화영상과</label>
+            <div id="circle5"></div>
+            <label for="circle5">바이오푸드과</label>
+        </div>
+        
+        <div id="about">
+            <button id="BT1" onclick="onButtonClick()">1번 수정하기</button>
+            <button id="BT2" onclick="onButtonClick2()">2번 수정하기</button>
+            <button id="BT3" onclick="onButtonClick3()">3번 수정하기</button>
+        </div>
+
+        <div id="change_one">
+            <h3>1번</h3>
+            <input type="radio" id="changeS1" name="1" onclick="changeColor('S1')">
+            <label for="changeS1">소프트웨어과</label><br>
+
+            <input type="radio" id="changeC1" name="1" onclick="changeColor('C1')">
+            <label for="changeC1">정보통신과</label><br>
+
+            <input type="radio" id="changeD1" name="1" onclick="changeColor('D1')">
+            <label for="changeD1">디자인과</label><br>
+
+            <input type="radio" id="changeA1" name="1" onclick="changeColor('A1')">
+            <label for="changeA1">만화영상과</label><br>
+
+            <input type="radio" id="changeB1" name="1" onclick="changeColor('B1')">
+            <label for="changeB1">바이오푸드과</label><br>
+
+        </div>
+
+        <!-- 새로운 방법 시도 -->
+        <div id="change_two">
+            <h3>2번</h3>
+            <input type="radio" id="changeS2" name="2" onclick="changeColor('S2')">
+            <label for="changeS2">소프트웨어과</label><br>
+
+            <input type="radio" id="changeC2" name="2" onclick="changeColor('C2')">
+            <label for="changeC2">정보통신과</label><br>
+
+            <input type="radio" id="changeD2" name="2" onclick="changeColor('D2')">
+            <label for="changeD2">디자인과</label><br>
+
+            <input type="radio" id="changeA2" name="2" onclick="changeColor('A2')">
+            <label for="changeA2">만화영상과</label><br>
+
+            <input type="radio" id="changeB2" name="2" onclick="changeColor('B2')">
+            <label for="changeB2">바이오푸드과</label><br>
+        </div>
+
+        <div id="change_thr">
+            <h3>3번</h3>
+            <input type="radio" id="changeS3" name="3" onclick="changeColor('S3')">
+            <label for="changeS3">소프트웨어과</label><br>
+
+            <input type="radio" id="changeC3" name="3" onclick="changeColor('C3')">
+            <label for="changeC3">정보통신과</label><br>
+
+            <input type="radio" id="changeD3" name="3" onclick="changeColor('D3')">
+            <label for="changeD3">디자인과</label><br>
+
+            <input type="radio" id="changeA3" name="3" onclick="changeColor('A3')">
+            <label for="changeA3">만화영상과</label><br>
+
+            <input type="radio" id="changeB3" name="3" onclick="changeColor('B3')">
+            <label for="changeB3">바이오푸드과</label><br>
+        </div>
+        <!-- 새로운 방법 시도 -->
+        <ul class="graph">
+            <li>
+                <aside id="graph1">
+                    <span style="height: 8%;">
+                        <i id="score1">0</i>
+                    </span>
+                </aside>
+                <p style="font-size: 20px;">박지원</p>
+            </li>
+            <li>
+                <aside id="graph2">
+                    <span style="height: 70%;">
+                        <i  id="score2">0</i>
+                    </span>
+                </aside>
+                <p style="font-size: 20px;">최지민</p>
+            </li>
+            <li>
+                <aside id="graph3">
+                    <span style="height: 75%;">
+                        <i id="score3">0</i>
+                    </span>
+                </aside>
+                <p style="font-size: 20px;">이서현</p>
+            </li>
+        </ul>
+        <p id="made" style="font-size: 20px;">Made by 스소과 엘리트</p>
+        <script src="main.js"></script>
+    </body>
+</html>
